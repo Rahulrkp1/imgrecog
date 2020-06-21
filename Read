@@ -1,0 +1,37 @@
+Image-Classification-by-Keras-and-Tensorflow
+Image Classification using Keras as well as Tensorflow. Image Classification is a Machine Learning module that trains itself from an existing dataset of multiclass images and develops a model for future prediction of similar images not encountered during training. Developed using Convolutional Neural Network (CNN).
+
+This repository contains implementation for multiclass image classification using Keras as well as Tensorflow. These two codes have no interdependecy on each other.
+
+Convolutional Neural Network (CNN)
+To be updated soon.
+
+Modules Required
+You can download the modules in the respective requirements.txt for each implementation.
+
+Implementation using Keras
+sys
+os
+time
+keras==2.2.0
+numpy==1.14.5
+
+Implementation using Tensorflow
+os
+time
+cv2
+glob
+dataset==1.1.0
+tensorflow==1.15.0
+numpy==1.14.5
+sklearn==0.19.1
+
+Steps
+Install the modules required based on the type of implementation.
+Download the dataset you want to train and predict your system with. For sample data, you can download the 101_ObjectCategories (131Mbytes).
+Construct the folder sub-structure required.
+Keras
+Keras.png
+
+Tensorflow
+Tensorflow.png
